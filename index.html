@@ -60,7 +60,7 @@
           </div>
           <div class="flex items-center">
             <button
-              class="bg-linear-to-l from-[#4c4ce9] via-[#561dd0] to-[#b6149d] w-30 h-12 rounded-full shadow-md font-bold hidden md:inline-block text-white btn border-none"
+              class="bg-[#B5ED3D] w-27 h-10 rounded-full shadow-md font-extrabold hidden md:inline-block text-black btn border-none"
             >
               Let's talk
             </button>
@@ -96,12 +96,12 @@
                   class="drawer-overlay"
                 ></label>
                 <ul
-                  class="menu b bg-linear-to-l from-[#3838e1] via-[#561dd0] to-[#941281] min-h-100 w-60 p-4 mt-5 pt-10 rounded-r-3xl"
+                  class="menu bg-linear-to-l from-[#04045a] to-[#4f0544] min-h-100 w-60 p-4 mt-5 pt-10 rounded-r-3xl"
                 >
                   <!-- Sidebar content here -->
                   <li class="">
                     <button
-                      class="btn bg-linear-to-l from-[#0909ea] via-[#561dd0] to-[#b6149d] w-fu h-10 rounded-full shadow-md font-bold text-sm border-none"
+                      class="btn w-full h-10 rounded-full shadow-md font-bold text-sm border-none bg-[#B5ED3D]"
                     >
                       Let's talk
                     </button>
@@ -142,7 +142,15 @@
           class="rounded-md"
         />
         <div class="absolute -top-1/9 right-1/10">
-          <img src="./Assets/Icons/read icon.png" alt="" class="w-15" />
+          <button
+            type="button"
+            class="flex items-center justify-center bg-[#B5ED3D] rounded-[5000px] w-15 h-15 btn"
+          >
+            <i
+              class="fa-solid fa-arrow-down-long fa-beat"
+              style="color: rgb(0, 0, 0)"
+            ></i>
+          </button>
         </div>
       </div>
     </header>
@@ -295,7 +303,7 @@
         <!-- Branding Design Section -->
         <section class="pt-20">
           <div
-            class="flex flex-col-reverse md:flex-row justify-between items-center gap-5"
+            class="flex flex-col-reverse md:flex-row justify-between items-center gap-15"
           >
             <div class="relative">
               <img
@@ -303,8 +311,27 @@
                 alt=""
                 class="rounded-2xl w-150"
               />
-              <div class="absolute -bottom-10 right-2/5">
-                <img src="./Assets/Icons/Group 238.png" alt="" class="w-20" />
+              <div class="absolute -bottom-10 right-2/5 hidden md:inline-block">
+                <button
+                  type="button"
+                  class="flex items-center justify-center bg-black rounded-[5000px] w-15 h-15 btn m-1"
+                >
+                  <i
+                    class="fa-solid fa-arrow-right-long fa-beat"
+                    style="color: rgb(255, 255, 255)"
+                  ></i>
+                </button>
+              </div>
+              <div class="absolute -top-10 right-2/5">
+                <button
+                  type="button"
+                  class="flex items-center justify-center bg-black rounded-[5000px] w-15 h-15 btn m-1 inline-block md:hidden"
+                >
+                  <i
+                    class="fa-solid fa-arrow-up-long fa-beat"
+                    style="color: rgb(255, 255, 255)"
+                  ></i>
+                </button>
               </div>
             </div>
             <div>
@@ -319,7 +346,7 @@
               <div class="flex flex-wrap justify-center gap-3">
                 <button
                   type="button"
-                  class="text-[20px] group flex h-12 w-35 items-center rounded-full bg-linear-to-r from-purple-500 via-red-500 to-yellow-500 p-0.5 btn border-none text-black"
+                  class="text-sm group flex h-12 w-35 items-center rounded-full bg-linear-to-r from-purple-500 via-red-500 to-yellow-500 p-0.5 btn border-none text-black"
                 >
                   <div
                     class="flex h-full w-full items-center justify-center rounded-full bg-white"
@@ -329,7 +356,7 @@
                 </button>
                 <button
                   type="button"
-                  class="text-[20px] group flex h-12 w-30 items-center rounded-full bg-linear-to-r from-purple-500 via-red-500 to-yellow-500 p-0.5 btn border-none text-black"
+                  class="text-sm group flex h-12 w-30 items-center rounded-full bg-linear-to-r from-purple-500 via-red-500 to-yellow-500 p-0.5 btn border-none text-black"
                 >
                   <div
                     class="flex h-full w-full items-center justify-center rounded-full bg-white"
@@ -339,7 +366,7 @@
                 </button>
                 <button
                   type="button"
-                  class="text-[20px] group flex h-12 w-34 items-center rounded-full bg-linear-to-r from-purple-500 via-red-500 to-yellow-500 p-0.5 btn border-none text-black"
+                  class="text-sm group flex h-12 w-34 items-center rounded-full bg-linear-to-r from-purple-500 via-red-500 to-yellow-500 p-0.5 btn border-none text-black"
                 >
                   <div
                     class="flex h-full w-full items-center justify-center rounded-full bg-white"
