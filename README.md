@@ -9,7 +9,7 @@ This project focuses on **modern layout design, responsiveness, and reusable UI 
 
 🔗 You can view the live project here:
 
-## 🚀 [Live Preview](https://amitchandradas2004.github.io/Teamollo/)
+## 🚀 [Live Preview](https://amitchandradas2004.github.io/Teamollo-Responsive-Web-Application/)
 ---
 
 ## ✨ Features
